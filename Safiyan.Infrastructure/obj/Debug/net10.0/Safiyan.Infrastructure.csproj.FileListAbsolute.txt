@@ -1,0 +1,15 @@
+D:\SIES\Safiyan.Infrastructure\bin\Debug\net10.0\Safiyan.Infrastructure.deps.json
+D:\SIES\Safiyan.Infrastructure\bin\Debug\net10.0\Safiyan.Infrastructure.dll
+D:\SIES\Safiyan.Infrastructure\bin\Debug\net10.0\Safiyan.Infrastructure.pdb
+D:\SIES\Safiyan.Infrastructure\bin\Debug\net10.0\Safiyan.Core.dll
+D:\SIES\Safiyan.Infrastructure\bin\Debug\net10.0\Safiyan.Core.pdb
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan.Infrastructure.csproj.AssemblyReference.cache
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan.Infrastructure.AssemblyInfoInputs.cache
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan.Infrastructure.AssemblyInfo.cs
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan.Infrastructure.csproj.CoreCompileInputs.cache
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan..A059BE40.Up2Date
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan.Infrastructure.dll
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\refint\Safiyan.Infrastructure.dll
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\Safiyan.Infrastructure.pdb
+D:\SIES\Safiyan.Infrastructure\obj\Debug\net10.0\ref\Safiyan.Infrastructure.dll

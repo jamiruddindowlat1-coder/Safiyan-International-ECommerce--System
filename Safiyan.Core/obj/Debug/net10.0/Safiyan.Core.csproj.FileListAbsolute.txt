@@ -1,0 +1,11 @@
+D:\SIES\Safiyan.Core\bin\Debug\net10.0\Safiyan.Core.deps.json
+D:\SIES\Safiyan.Core\bin\Debug\net10.0\Safiyan.Core.dll
+D:\SIES\Safiyan.Core\bin\Debug\net10.0\Safiyan.Core.pdb
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\Safiyan.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\Safiyan.Core.AssemblyInfoInputs.cache
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\Safiyan.Core.AssemblyInfo.cs
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\Safiyan.Core.csproj.CoreCompileInputs.cache
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\Safiyan.Core.dll
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\refint\Safiyan.Core.dll
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\Safiyan.Core.pdb
+D:\SIES\Safiyan.Core\obj\Debug\net10.0\ref\Safiyan.Core.dll
