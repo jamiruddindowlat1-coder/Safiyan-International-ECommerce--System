@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Safiyan.Api/Safiyan.Api.csproj" />
+  <Project Path="Safiyan.Core/Safiyan.Core.csproj" />
+  <Project Path="Safiyan.Infrastructure/Safiyan.Infrastructure.csproj" />
+  <Project Path="Safiyan.Tests/Safiyan.Tests.csproj" />
+</Solution>

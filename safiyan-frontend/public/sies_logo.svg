@@ -1,0 +1,33 @@
+<svg width="680" height="300" viewBox="0 0 680 300" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>SIES kingfisher logo</title>
+<desc>An abstract kingfisher bird made of gradient shapes in purple, magenta, blue, cream and orange, with the word "SIES" written in bold white letters filling its body.</desc>
+<defs>
+<linearGradient id="gradBody" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#3a2a7a"/>
+<stop offset="50%" stop-color="#8a2387"/>
+<stop offset="100%" stop-color="#1f6fb2"/>
+</linearGradient>
+<linearGradient id="gradHead" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#8a2387"/>
+<stop offset="100%" stop-color="#5b2a86"/>
+</linearGradient>
+<linearGradient id="gradBeak" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#f2711f"/>
+<stop offset="100%" stop-color="#ffb347"/>
+</linearGradient>
+</defs>
+
+<path d="M 190 150 C 140 140, 90 150, 60 165 C 100 178, 150 192, 200 190 Z" fill="#e8dcc0"/>
+
+<ellipse cx="330" cy="170" rx="150" ry="75" fill="url(#gradBody)"/>
+
+<circle cx="470" cy="125" r="58" fill="url(#gradHead)"/>
+
+<path d="M 515 110 L 605 100 L 520 140 Z" fill="url(#gradBeak)"/>
+
+<circle cx="487" cy="112" r="9" fill="#ffffff"/>
+<circle cx="490" cy="112" r="4.5" fill="#1a1a1a"/>
+
+<text x="330" y="185" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="56" letter-spacing="2" fill="#ffffff">SIES</text>
+
+</svg>

@@ -1,0 +1,6 @@
+@Safiyan.Api_HostAddress = http://localhost:5134
+
+GET {{Safiyan.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
