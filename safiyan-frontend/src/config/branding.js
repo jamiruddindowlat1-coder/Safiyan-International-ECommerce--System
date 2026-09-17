@@ -5,7 +5,7 @@
 export const SIES_BRANDING = {
   name: "Safiyan International ECommerce System",
   shortName: "SIES",
-  logo: "/sies_logo.svg",
+  logo: `${import.meta.env.BASE_URL}sies_logo.svg`,
   contact: {
     phoneDisplay: "+8801715487122",
     phoneHref: "+8801715487122",
