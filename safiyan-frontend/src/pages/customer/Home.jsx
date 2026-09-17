@@ -1,4 +1,4 @@
-﻿import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { SIES_BRANDING } from '../../config/branding';
 
 export default function Home() {
@@ -48,7 +48,7 @@ export default function Home() {
               rel="noopener noreferrer"
               style={primaryButton}
             >
-              📄 View Project PDF
+              ?? View Project PDF
             </a>
 
             <a
@@ -56,7 +56,7 @@ export default function Home() {
               download
               style={secondaryButton}
             >
-              ⬇ Download PDF
+              ? Download PDF
             </a>
           </div>
         </div>
@@ -86,6 +86,6 @@ const primaryButton = {
 const secondaryButton = {
   ...primaryButton,
   background: 'transparent',
-  color: '#e5eef8',
+  color: '#0f4c81',
   border: '1px solid #31506f',
 };
