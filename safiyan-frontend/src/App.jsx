@@ -4,11 +4,12 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import { WishlistProvider } from './context/WishlistContext';
 import { CartProvider } from './context/CartContext';
 
+const BASENAME = '/Safiyan-International-ECommerce--System';
+
 export default function App() {
   return (
-    <BrowserRouter>
-      
-            <AuthProvider>
+    <BrowserRouter basename={BASENAME}>
+      <AuthProvider>
         <AuthenticatedApp />
       </AuthProvider>
     </BrowserRouter>
@@ -26,5 +27,3 @@ function AuthenticatedApp() {
     </WishlistProvider>
   );
 }
-
-  
