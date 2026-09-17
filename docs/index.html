@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mohammed Jamir Uddin | Software Projects Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #111827, #1e3a8a);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 45px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .section-title p {
+      color: #6b7280;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .project-icon {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .project-card h3 {
+      font-size: 23px;
+      margin-bottom: 12px;
+      color: #111827;
+    }
+
+    .project-card p {
+      color: #6b7280;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 11px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .pdf-btn {
+      background: #111827;
+      color: white;
+    }
+
+    .video-btn {
+      background: #dc2626;
+      color: white;
+    }
+
+    .github-btn {
+      background: #374151;
+      color: white;
+    }
+
+    .disabled {
+      background: #e5e7eb;
+      color: #9ca3af;
+      cursor: not-allowed;
+    }
+
+    footer {
+      margin-top: 60px;
+      background: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer strong {
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 31px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .project-card {
+        padding: 22px;
+      }
+
+      .buttons {
+        flex-direction: column;
+      }
+
+      .btn {
+        text-align: center;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header class="hero">
+    <h1>Mohammed Jamir Uddin</h1>
+    <p>Software Projects Portfolio</p>
+  </header>
+
+  <main class="container">
+
+```
+<div class="section-title">
+  <h2>My Projects</h2>
+  <p>Selected software systems and project demonstrations</p>
+</div>
+
+<div class="project-grid">
+
+  <!-- SAFIYAN E-COMMERCE -->
+  <div class="project-card">
+
+    <div class="project-icon">🛒</div>
+
+    <h3>Safiyan International E-Commerce System</h3>
+
+    <p>
+      A complete e-commerce management system designed for
+      online product management, customers, vendors, shopping cart,
+      orders and related business operations.
+    </p>
+
+    <div class="buttons">
+
+      <a
+        class="btn pdf-btn"
+        href="https://github.com/jamiruddindowlat1-coder/Safiyan-International-ECommerce--System/blob/main/Safiyan_International_ECommerce_Final_with_logo.pdf"
+        target="_blank">
+        📄 View Portfolio PDF
+      </a>
+
+      <a
+        class="btn video-btn disabled"
+        href="#"
+        onclick="return false;">
+        🎥 Demo Coming Soon
+      </a>
+
+      <a
+        class="btn github-btn"
+        href="https://github.com/jamiruddindowlat1-coder/Safiyan-International-ECommerce--System"
+        target="_blank">
+        💻 Source Code
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- PROJECT 2 -->
+  <div class="project-card">
+
+    <div class="project-icon">💼</div>
+
+    <h3>Auto Parts ERP</h3>
+
+    <p>
+      Enterprise resource planning system for managing
+      business operations, inventory, sales and related workflows.
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn pdf-btn disabled" href="#" onclick="return false;">
+        📄 PDF Coming Soon
+      </a>
+
+      <a class="btn video-btn disabled" href="#" onclick="return false;">
+        🎥 Demo Coming Soon
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- PROJECT 3 -->
+  <div class="project-card">
+
+    <div class="project-icon">🏥</div>
+
+    <h3>Sayan Hospital Management System</h3>
+
+    <p>
+      Hospital management solution designed to support
+      hospital administration, reception, patient and operational
+      management workflows.
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn pdf-btn disabled" href="#" onclick="return false;">
+        📄 PDF Coming Soon
+      </a>
+
+      <a class="btn video-btn disabled" href="#" onclick="return false;">
+        🎥 Demo Coming Soon
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- PROJECT 4 -->
+  <div class="project-card">
+
+    <div class="project-icon">🎓</div>
+
+    <h3>Sinan International University ERP</h3>
+
+    <p>
+      University ERP system designed to manage academic,
+      administrative and institutional workflows.
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn pdf-btn disabled" href="#" onclick="return false;">
+        📄 PDF Coming Soon
+      </a>
+
+      <a class="btn video-btn disabled" href="#" onclick="return false;">
+        🎥 Demo Coming Soon
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
+```
+
+  </main>
+
+  <footer>
+    <p>
+      © 2026 <strong>Mohammed Jamir Uddin</strong> —
+      Software Projects Portfolio
+    </p>
+  </footer>
+
+</body>
+</html>
