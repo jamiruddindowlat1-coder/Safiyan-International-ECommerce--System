@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { SIES_BRANDING } from '../../config/branding';
 
 export default function Home() {
   return (
     <div style={{ padding: '36px 20px' }}>
-      <div style={{ maxWidth: 1100, margin: '0 auto', background: '#fff', borderRadius: 18, padding: 30, boxShadow: '0 8px 22px rgba(15, 23, 42, 0.05)' }}>
+      <div style={{ maxWidth: 1100, margin: '0 auto', background: '#fff', borderRadius: 18, padding: 30, boxShadow: '08px 22px rgba(15, 23, 42, 0.05)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 20 }}>
           <img src={SIES_BRANDING.logo} alt={SIES_BRANDING.shortName} style={{ height: 52, width: 'auto' }} />
           <div>
@@ -23,6 +23,42 @@ export default function Home() {
           <Link to="/login" style={primaryButton}>Login</Link>
           <Link to="/register" style={secondaryButton}>Register</Link>
           <Link to="/admin" style={secondaryButton}>Admin Panel</Link>
+        </div>
+
+        <div style={{
+          marginTop: 32,
+          padding: 24,
+          borderRadius: 18,
+          background: 'linear-gradient(135deg, #f8fafc 0%, #eef6ff 100%)',
+          border: '1px solid #dbe7f3'
+        }}>
+          <div style={{ fontSize: 24, fontWeight: 800, color: '#0f4c81' }}>
+            SIES Project Documentation
+          </div>
+
+          <div style={{ marginTop: 8, color: '#475569', lineHeight: 1.7 }}>
+            Explore the complete Safiyan International ECommerce System project
+            documentation, screenshots, features, testing information, and system overview.
+          </div>
+
+          <div style={{ marginTop: 18, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+            <a
+              href={`${import.meta.env.BASE_URL}Safiyan_International_ECommerce_Final_with_logo.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={primaryButton}
+            >
+              📄 View Project PDF
+            </a>
+
+            <a
+              href={`${import.meta.env.BASE_URL}Safiyan_International_ECommerce_Final_with_logo.pdf`}
+              download
+              style={secondaryButton}
+            >
+              ⬇ Download PDF
+            </a>
+          </div>
         </div>
       </div>
     </div>
