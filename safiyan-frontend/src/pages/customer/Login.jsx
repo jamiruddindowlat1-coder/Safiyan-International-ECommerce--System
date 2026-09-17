@@ -41,7 +41,7 @@ export default function Login() {
   return (
     <div style={pageStyle}>
       <div style={cardStyle}>
-        <div style={brandStyle}><div style={logoBubbleStyle}><img src="/sies_logo.svg" alt="SIES" style={{ height: 48 }} /></div><div><div style={titleStyle}>Welcome back</div><div style={subtitleStyle}>Safiyan International ECommerce System</div></div></div>
+        <div style={brandStyle}><div style={logoBubbleStyle}><img src={`${import.meta.env.BASE_URL}sies_logo.svg`} alt="SIES" style={{ height: 48 }} /></div><div><div style={titleStyle}>Welcome back</div><div style={subtitleStyle}>Safiyan International ECommerce System</div></div></div>
         {isDevelopment && <div style={roleGridStyle}>{Object.keys(demoAccounts).map((accountRole) => <button type="button" key={accountRole} onClick={() => selectRole(accountRole)} style={{ ...roleButtonStyle, ...roleColors[accountRole], ...(role === accountRole ? selectedRoleStyle : {}) }}>{accountRole}<small>{accountRole === 'Admin' ? 'Full management' : accountRole === 'Vendor' ? 'Store management' : 'Shopping access'}</small></button>)}</div>}
       <form onSubmit={handleSubmit} style={{ display: 'grid', gap: 14 }}>
         <input placeholder="Email" type="email" required value={form.email} onChange={(event) => setForm({ ...form, email: event.target.value })} style={inputStyle} />
